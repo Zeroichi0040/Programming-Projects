@@ -2,7 +2,6 @@ import random
 
 random_number = random.randint(1, 100)      # get a random number from 1 to 100
 
-
 while True:
     guess = int(input("Guess a number from 1 - 100: "))
     if guess > random_number:
